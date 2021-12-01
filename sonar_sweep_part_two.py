@@ -1,4 +1,4 @@
-infile = open("sonar_sweep_input.txt")
+infile = open("inputs/sonar_sweep_input.txt")
 input = list(map(int, infile.readlines()))
 
 first_two_lists = zip(input[:len(input) - 2], input[1:len(input) - 1])

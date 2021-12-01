@@ -1,4 +1,4 @@
-infile = open("sonar_sweep_input.txt")
+infile = open("inputs/sonar_sweep_input.txt")
 input = list(map(int, infile.readlines()))
 
 prev_item = input[0]
